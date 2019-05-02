@@ -2,7 +2,7 @@
 
 <project name="TDD-PHP-Sample" default="build">
  <target name="build"
-   depends="prepare,lint,phpunit,phpcb"/>
+   depends="prepare,lint"/>
 
  <target name="build-parallel"
    depends="prepare,lint,tools-parallel,phpunit,phpcb"/>
